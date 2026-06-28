@@ -1,0 +1,59 @@
+
+
+- Tryb początkowy – oczekiwanie na start
+
+    Zielona dioda LED (START) miga co 1,5 sekundy, sygnalizując gotowość systemu do uruchomienia.
+
+    Czerwona dioda LED (STOP) świeci się światłem ciągłym, oznaczając, że maszyna jest nieaktywna.
+
+    Maszyna nie działa – przekaźnik i silnik są wyłączone.
+    
+    
+- Naciśnięcie przycisku START (chwilowy)
+
+    Gdy operator naciśnie przycisk START:
+
+        Zielona dioda LED przestaje migać i świeci się światłem ciągłym – sygnalizując aktywny stan pracy.
+
+        Czerwona dioda LED (STOP) gaśnie, informując o zakończeniu trybu oczekiwania.
+
+        Aktywowane zostaje wyjście cyfrowe – przekaźnik uruchamia piłę lub inne urządzenie.
+
+        Maszyna rozpoczyna pracę.
+   
+        
+- Naciśnięcie przycisku STOP (chwilowy)
+
+    Po naciśnięciu przycisku STOP:
+
+        Maszyna natychmiast się zatrzymuje – przekaźnik zostaje wyłączony.
+
+        Zielona dioda LED (START) powraca do migania, sygnalizując ponownie stan oczekiwania.
+
+        Czerwona dioda LED (STOP) znowu się zapala, potwierdzając wyłączenie maszyny.
+        
+        
+ - Grzyb bezpieczeństwa (wyłącznik awaryjny)
+
+    Choć nie obsługiwany w kodzie, mechanicznie odcina zasilanie całego systemu sterowania.
+
+    Działa niezależnie od logiki programu – pełne zabezpieczenie przeciwko przypadkowemu uruchomieniu.
+    
+    
+  
+
+Układ spełnia zasadę bezpieczeństwa restartu w automatyce przemysłowej "SAFE START/No Automatic Restart"
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
